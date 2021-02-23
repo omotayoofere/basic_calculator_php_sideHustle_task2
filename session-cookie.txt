@@ -1,0 +1,19 @@
+SESSION
+
+Sessions are server-side files which contain user information
+A session ends when a user closes his browser
+In PHP, before using $_SESSION, you have to write session_start(); Likewise for other languages
+Within-session you can store as much data as you like. 
+The only limits you can reach is the maximum memory a script can consume at one time, which is 128MB by default
+A session is dependent on Cookie
+Session_destroy(); is used to destroy all registered data or to unset some
+
+
+Cookies
+
+Cookies are client-side files that contain user information
+Cookie ends depending on the lifetime you set for it
+You don't need to start cookie as it is stored in your local machine
+The official maximum cookie size is 4KB
+A cookie is not dependent on Session
+There is no function named unsetcookie()
